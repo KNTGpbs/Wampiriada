@@ -102,7 +102,7 @@ public class GameManager : MonoBehaviour
 
         if (lives > 0) 
         {
-            Invoke(nameof(NewRound), 1f);
+            Invoke(nameof(Respawn), 0.2f);
 
         }
         else
